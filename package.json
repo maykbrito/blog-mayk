@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro check && astro build && jampack ./dist",
+    "build": "astro check && astro build",
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",
@@ -33,7 +33,6 @@
     "@astrojs/react": "^3.0.2",
     "@astrojs/sitemap": "^3.7.1",
     "@astrojs/tailwind": "^6.0.2",
-    "@divriots/jampack": "^0.20.2",
     "@tailwindcss/typography": "^0.5.10",
     "@types/github-slugger": "^1.3.0",
     "@types/react": "^18.2.22",
@@ -61,5 +60,10 @@
       "prettier --plugin-search-dir=. --write"
     ]
   },
-  "packageManager": "pnpm@10.32.0"
+  "packageManager": "pnpm@10.32.0",
+  "pnpm": {
+    "overrides": {
+      "sharp": "0.33.5"
+    }
+  }
 }
