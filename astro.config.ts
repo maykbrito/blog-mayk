@@ -9,6 +9,7 @@ import { SITE } from "./src/config";
 // https://astro.build/config
 export default defineConfig({
   base: "/blog-mayk/",
+  trailingSlash: "always",
   site: SITE.website,
   integrations: [
     tailwind({
