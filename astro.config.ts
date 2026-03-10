@@ -8,6 +8,7 @@ import { SITE } from "./src/config";
 
 // https://astro.build/config
 export default defineConfig({
+  base: "/blog-mayk/",
   site: SITE.website,
   integrations: [
     tailwind({
