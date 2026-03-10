@@ -65,7 +65,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             <ul>
               {featuredPosts.map(({ data }) => (
                 <Card
-                  href={`/posts/${slugify(data)}`}
+                  href={`/blog-mayk/posts/${slugify(data)}`}
                   frontmatter={data}
                   secHeading={false}
                 />
@@ -87,7 +87,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
               ({ data }, index) =>
                 index < 4 && (
                   <Card
-                    href={`/posts/${slugify(data)}`}
+                    href={`/blog-mayk/posts/${slugify(data)}`}
                     frontmatter={data}
                     secHeading={false}
                   />

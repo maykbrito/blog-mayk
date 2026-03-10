@@ -27,7 +27,7 @@ const next = pageNum < totalPages ? "" : "disabled";
     <ul>
       {
         posts.map(({ data }) => (
-          <Card href={`/posts/${slugify(data)}`} frontmatter={data} />
+          <Card href={`/blog-mayk/posts/${slugify(data)}`} frontmatter={data} />
         ))
       }
     </ul>
@@ -49,7 +49,7 @@ const next = pageNum < totalPages ? "" : "disabled";
         </LinkButton>
         <LinkButton
           disabled={next === "disabled"}
-          href={`/posts/${pageNum + 1}`}
+          href={`/blog-mayk/posts/${pageNum + 1}`}
           className={`ml-4 select-none ${next}`}
           ariaLabel="Next"
         >
