@@ -1,8 +1,16 @@
 ---
+author: Mayk Brito
+pubDatetime: 2026-03-11T14:30:00Z
 title: "Superando o Efeito Platô: Por que você sente que não avança na programação?"
+featured: true
+draft: false
+tags:
+  - programacao
+  - carreira
+  - frontend
+  - backend
+  - estudos
 description: 'Sente que empacou e só "copia e cola"? Entenda o Efeito Platô e como superar a vontade de desistir na programação.'
-pubDate: "2026-03-11"
-heroImage: "/blog-mayk/blog-placeholder-2.jpg"
 ---
 
 Existe um momento na vida de todo estudante de programação em que parece que a evolução parou. Você sente que empacou, que não está avançando e, pior, bate aquela vontade de desistir ou a dúvida: _"será que a área de tecnologia não é para mim?"_.
